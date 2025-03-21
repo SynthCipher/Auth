@@ -1,11 +1,11 @@
 import React from 'react'
 import { Route ,Routes } from 'react-router-dom'
 import Home from './pages/home'
-import Login from './pages/login'
 import EmailVerify from './pages/EmailVerify'
 import ResetPassword from './pages/ResetPassword'
 import Navbar from './components/Navbar'
 import { ToastContainer } from 'react-toastify'
+import Login from './pages/Login'
 
 const App = () => {
   return (
